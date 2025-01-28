@@ -1,5 +1,3 @@
-Låt oss skapa dokumentationen för Projekt 1. Här är innehållet du kan klistra in i ditt GitHub repository:
-
 # Project 1: VM Security Configuration - AWS Cloud Security Implementation
 
 ## Objective
