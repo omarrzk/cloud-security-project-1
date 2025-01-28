@@ -1,21 +1,30 @@
-Project 1: VM Security Configuration - AWS Cloud Security Implementation
-Objective
+Låt oss skapa dokumentationen för Projekt 1. Här är innehållet du kan klistra in i ditt GitHub repository:
+
+# Project 1: VM Security Configuration - AWS Cloud Security Implementation
+
+## Objective
 Learn to configure a basic virtual machine (VM) and apply security measures in AWS cloud environment.
-Project Overview
+
+## Project Overview
 This project demonstrates the implementation of security measures for a virtual machine in AWS, including security group configuration, logging, and monitoring setup.
-Technical Implementation
-VM Configuration
-Instance Type: t3.micro
-OS: Amazon Linux 2
-Region: [Your AWS Region]
-Security Measures
-bash
+
+## Technical Implementation
+
+### VM Configuration
+- Instance Type: t3.micro
+- OS: Amazon Linux 2
+- Region: [Your AWS Region]
+
+### Security Measures
+```bash
 # Security Group Configuration
 SSH (Port 22) - [Your IP]/32
 HTTP (Port 80) - 0.0.0.0/0
 HTTPS (Port 443) - 0.0.0.0/0
-Monitoring Setup
-bash
+```
+
+### Monitoring Setup
+```bash
 # CloudWatch Installation
 sudo yum update -y
 sudo yum install -y awslogs
@@ -29,33 +38,46 @@ curl -L -o fail2ban.tar.gz https://github.com/fail2ban/fail2ban/archive/refs/tag
 tar -xvf fail2ban.tar.gz
 cd fail2ban-1.0.2/
 sudo python3 setup.py install
-Logging Configuration
-bash
+```
+
+### Logging Configuration
+```bash
 # SSH Logging
 LogLevel VERBOSE
 
 # Enable System Logging
 sudo systemctl enable awslogsd
 sudo systemctl start awslogsd
-Security Features
-Implemented fail2ban for intrusion prevention
-Configured CloudWatch for monitoring
-Set up security groups with principle of least privilege
-Enabled detailed logging for SSH access
-Implemented network ACLs for additional security
-Validation Steps
-Verify SSH access with key pair
-Confirm security group rules
-Test logging functionality
-Validate fail2ban operation
-Check CloudWatch metrics
-Maintenance
-Regular system updates
-Log monitoring
-Security group rule review
-Backup verification
-Best Practices Implemented
-Principle of least privilege
-Secure SSH configuration
-Regular monitoring and logging
-Automated security responses
+```
+
+## Security Features
+- Implemented fail2ban for intrusion prevention
+- Configured CloudWatch for monitoring
+- Set up security groups with principle of least privilege
+- Enabled detailed logging for SSH access
+- Implemented network ACLs for additional security
+
+## Validation Steps
+1. Verify SSH access with key pair
+2. Confirm security group rules
+3. Test logging functionality
+4. Validate fail2ban operation
+5. Check CloudWatch metrics
+
+## Maintenance
+- Regular system updates
+- Log monitoring
+- Security group rule review
+- Backup verification
+
+## Best Practices Implemented
+- Principle of least privilege
+- Secure SSH configuration
+- Regular monitoring and logging
+- Automated security responses
+
+Detta ger en professionell dokumentation av ditt projekt som visar dina kunskaper inom molnsäkerhet och best practices.
+
+Citations:
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/44524718/54f57c3a-91ae-4c70-bd9f-7619d71fa673/paste.txt
+[2] https://pplx-res.cloudinary.com/image/upload/v1738092155/user_uploads/SGxDwXNYyjshXNV/Skarmbild-153.jpg
