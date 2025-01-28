@@ -75,9 +75,3 @@ sudo systemctl start awslogsd
 - Secure SSH configuration
 - Regular monitoring and logging
 - Automated security responses
-
-Detta ger en professionell dokumentation av ditt projekt som visar dina kunskaper inom molnsäkerhet och best practices.
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/44524718/54f57c3a-91ae-4c70-bd9f-7619d71fa673/paste.txt
-[2] https://pplx-res.cloudinary.com/image/upload/v1738092155/user_uploads/SGxDwXNYyjshXNV/Skarmbild-153.jpg
